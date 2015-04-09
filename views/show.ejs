@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SnapShots </title>
+</head>
+<body>
+	<h1> Giphy Results For: <%= search %> </h1>
+	<%gifs.forEach(function(results){%>  
+	<img src="<%= results %>">
+	<%});%>
+</body>
+</html>
